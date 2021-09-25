@@ -50,6 +50,8 @@ int main()
 		// determine the distance between the two points
 		distance = origin - destination;
 
+		std::cout << "Is origin is equal to destination?" << (origin == destination) << std::endl;
+
 		// Output 
 		// Show the points and the distance
 		std::cout << std::fixed << std::setprecision(3); // formatting
