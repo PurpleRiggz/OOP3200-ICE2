@@ -18,7 +18,7 @@ int main()
 {
 	// Declarations
 	// a point called 'origin', initialized to 0, 0
-	CartesianPoint origin = CartesianPoint(10, 20);
+	CartesianPoint origin = CartesianPoint(0, 0);
 	
 	// a point called 'destination'
 	CartesianPoint destination;

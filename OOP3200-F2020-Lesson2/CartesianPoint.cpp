@@ -2,9 +2,9 @@
 
 #include <sstream>
 
-CartesianPoint::CartesianPoint(int x, int y)
+CartesianPoint::CartesianPoint(const int x, const int y):m_myX(x), m_myY(y)
 {
-	SetPoint(x, y);
+	//SetPoint(x, y);
 }
 
 CartesianPoint::~CartesianPoint() = default;
